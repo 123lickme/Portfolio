@@ -1,0 +1,323 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Portfolio</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, I'm <span class="text-color-main">Winfred Jeremy</span>
+          <br />
+          I develop webapps.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Let me show you</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I started my career as a Transaction Specialist for Microsoft volume licensing were we configure accounts of our partner's subscriptions. I later became a Technical Support Engineer for HP and Lenovo. 
+              </p>
+              <p class="about-wrapper__info-text">
+                Realized that I wanted a more challenging role where I had to keep constantly learning. Impatient to learn, I started my self-taught coding journey using various resources such as Coursera, Microsoft and Udemy.
+              </p>
+              <p class="about-wrapper__info-text"> 
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="https://www.linkedin.com/in/winfred-jeremy-rafael-72ba54237/details/skills/"
+                >Skills</a>
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">FACE DETECT</h3>
+                <div>
+                  <p class="mb-4">
+                    This app has a Face Detection API 
+                    by Clarifai with an entry counter,  
+                    user registration and log in 
+                    authentication without OAuth.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://smartbrain-2v0g.onrender.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/123lickme/smart-brain"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://smartbrain-2v0g.onrender.com/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">GRADIENT</h3>
+                <div>
+                  <p class="mb-4">
+                    A Gradient Background generator 
+                    webapp using DOM Manipulation.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://123lickme.github.io/background-generator/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/123lickme/background-generator"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://123lickme.github.io/background-generator/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project2.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">ROBOBROS</h3>
+                <div>
+                  <p class="mb-4">
+                    An interactive app that has a search 
+                    function to filter card profiles that 
+                    uses a json placeholder as its database. 
+                    Utilizing robohash api to generate random 
+                    profile picture using user ids.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://robobros.onrender.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/123lickme/Robobros"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://robobros.onrender.com/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project3.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <div class="contact-wrapper load-hidden">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:winfred_rafael@hotmail.com"
+            >Get in touch</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <p>Find me on</p>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/winfred-jeremy-rafael-72ba54237/" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://github.com/123lickme" target="_blank">
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          © Made with 
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="#988e9f" d="M5.719 14.75c-0.236 0-0.474-0.083-0.664-0.252l-5.060-4.498 5.341-4.748c0.412-0.365 1.044-0.33 1.411 0.083s0.33 1.045-0.083 1.412l-3.659 3.253 3.378 3.002c0.413 0.367 0.45 0.999 0.083 1.412-0.197 0.223-0.472 0.336-0.747 0.336zM14.664 14.748l5.341-4.748-5.060-4.498c-0.413-0.367-1.045-0.33-1.411 0.083s-0.33 1.045 0.083 1.412l3.378 3.003-3.659 3.252c-0.413 0.367-0.45 0.999-0.083 1.412 0.197 0.223 0.472 0.336 0.747 0.336 0.236 0 0.474-0.083 0.664-0.252zM9.986 16.165l2-12c0.091-0.545-0.277-1.060-0.822-1.151-0.547-0.092-1.061 0.277-1.15 0.822l-2 12c-0.091 0.545 0.277 1.060 0.822 1.151 0.056 0.009 0.11 0.013 0.165 0.013 0.48 0 0.904-0.347 0.985-0.835z"></path></svg>
+          by Winfred. Circa 2023.
+        </p>
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
